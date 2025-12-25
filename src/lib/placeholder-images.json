@@ -1,0 +1,89 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "A bright and modern dental clinic reception area, clean and welcoming.",
+        "imageUrl": "/hero-background.jpg",
+      "imageHint": "dental clinic"
+    },
+    {
+      "id": "about-clinic",
+      "description": "A professional and friendly dentist smiling in a modern clinic environment.",
+        "imageUrl": "/about-clinic.png",
+      "imageHint": "dentist smiling"
+    },
+    {
+      "id": "gallery-implant-before",
+      "description": "Before photo of a dental implant procedure, showing a gap in teeth.",
+        "imageUrl": "/gallery-implant-before.jpg",
+      "imageHint": "teeth before"
+    },
+    {
+      "id": "gallery-implant-after",
+      "description": "After photo of a dental implant procedure, showing a complete, healthy smile.",
+        "imageUrl": "/gallery-implant-after.jpg",
+      "imageHint": "smile after"
+    },
+    {
+      "id": "gallery-whitening-before",
+      "description": "Before photo of a teeth whitening procedure, showing discolored teeth.",
+        "imageUrl": "/gallery-whitening-before.jpg",
+      "imageHint": "yellow teeth"
+    },
+    {
+      "id": "gallery-whitening-after",
+      "description": "After photo of a teeth whitening procedure, showing bright, white teeth.",
+        "imageUrl": "/gallery-whitening-after.jpg",
+      "imageHint": "white smile"
+    },
+    {
+      "id": "gallery-makeover-before",
+      "description": "Before photo of a smile makeover, showing uneven teeth.",
+        "imageUrl": "/gallery-makeover-before.jpg",
+      "imageHint": "crooked teeth"
+    },
+    {
+      "id": "gallery-makeover-after",
+      "description": "After photo of a smile makeover, showing a perfectly aligned smile.",
+        "imageUrl": "/gallery-makeover-after.jpg",
+      "imageHint": "perfect smile"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "description": "Avatar for a smiling female patient.",
+        "imageUrl": "/testimonial-avatar-1.jpg",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Avatar for a smiling male patient.",
+        "imageUrl": "/testimonial-avatar-2.jpg",
+      "imageHint": "man smiling"
+    },
+    {
+      "id": "testimonial-avatar-3",
+      "description": "Avatar for a happy patient.",
+        "imageUrl": "/testimonial-avatar-3.jpg",
+      "imageHint": "person happy"
+    },
+    {
+      "id": "happy-client",
+      "description": "A happy client with the dentist.",
+        "imageUrl": "/happy-client.jpg",
+      "imageHint": "happy client"
+    },
+    {
+     "id": "gallery-whitening",
+      "description": "A happy client with the dentist.",
+        "imageUrl": "/gallery-whitening.jpg",
+      "imageHint": "happy client"
+      
+    },
+    {
+      "id": "gallery-makeover",
+      "description": "After photo of a smile makeover, showing a perfectly aligned smile.",
+        "imageUrl": "/gallery-makeover.jpg",
+      "imageHint": "perfect smile"
+    }
+  ]
+}

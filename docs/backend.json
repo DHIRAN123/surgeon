@@ -1,0 +1,73 @@
+
+{
+  "entities": {
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Represents a user's profile in the system.",
+      "type": "object",
+      "properties": {
+        "uid": {
+          "type": "string",
+          "description": "The user's unique ID."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "The user's email address."
+        },
+        "displayName": {
+          "type": "string",
+          "description": "The user's display name."
+        }
+      },
+      "required": ["uid", "email"]
+    },
+    "Contact": {
+      "title": "Contact Inquiry",
+      "description": "A contact form submission from a user.",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The full name of the person submitting the form."
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "The email address of the person."
+        },
+        "phone": {
+          "type": "string",
+          "description": "The phone number of the person."
+        },
+        "message": {
+          "type": "string",
+          "description": "The message content."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "The timestamp when the inquiry was created, added by the server."
+        }
+      },
+      "required": ["name", "email", "message", "createdAt"]
+    }
+  },
+  "auth": {
+    "providers": ["email"]
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": {
+        "$ref": "#/backend/entities/UserProfile"
+      },
+      "description": "Stores public profile information for each user."
+    },
+    "/contacts/{contactId}": {
+      "schema": {
+        "$ref": "#/backend/entities/Contact"
+      },
+      "description": "Stores contact form submissions from the website."
+    }
+  }
+}
